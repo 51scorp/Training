@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+
+ "draw_white_space": "all",//Отображает непечатаемые символы
+ "draw_indent_guides": false,//Убирает направляющие линии
+ "font_size": 10,//Размер шрифта по умолчанию
+ "margin": 0,//Убирает отступы
+ "tab_size": 2,//Размер табуляции
+ "theme": "ayu-mirage.sublime-theme",
+ "trim_trailling_white_space_on_save": false,//Отключает самодеятельность программы
+ "remeber_open_files": true,//Помнит открытые ранее файлы
+ "word_wrap" : false, // запрещает перенос строки
+}
