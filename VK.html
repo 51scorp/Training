@@ -146,6 +146,7 @@
          };
       };
 
+
       window.locDomain = vk.host.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
       var _ua = navigator.userAgent.toLowerCase();
       if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) document.domain = locDomain;
@@ -411,7 +412,7 @@
             vkopt.lang.override(); // TODO: убрать этот костыль при удалении скриптов для старого дизайна
             vkopt.settings.init_defaults();
             check && check();
-                     
+
             var wait = [];
             for (var key in StaticFiles)
                if (StaticFiles[key].t == 'js') {
