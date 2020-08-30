@@ -19,14 +19,12 @@ a:focus,
 a:active {
 	outline: none;
 }
-
 nav,
 footer,
 header,
 aside {
 	display: block;
 }
-
 html,
 body {
 	height: 100%;
@@ -43,7 +41,6 @@ button,
 textarea {
 	font-family: inherit;
 }
-
 input::-ms-clear {
 	display: none;
 }
@@ -67,7 +64,6 @@ ul li {
 img {
 	vertical-align: top;
 }
-
 h1,
 h2,
 h3,
@@ -78,3 +74,23 @@ h6 {
 	font-weight: 400;
 }
 /*--------------------*/
+body {
+	font-family: serif;
+	padding: 150px 30px 30px 30px;
+}
+.list {
+	margin: 0 0 50px 0;
+}
+.list li {
+	font-size: 25px;
+	margin: 0 0 15px 0;
+	background: url(https://zpl.io/bWO3j67) left no-repeat;
+	padding: 0 0 0 25px;
+}
+.block {
+	background: url(https://zpl.io/bWO3j67) 50% / cover no-repeat;
+
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+}

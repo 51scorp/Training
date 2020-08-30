@@ -19,14 +19,12 @@ a:focus,
 a:active {
 	outline: none;
 }
-
 nav,
 footer,
 header,
 aside {
 	display: block;
 }
-
 html,
 body {
 	height: 100%;
@@ -43,7 +41,6 @@ button,
 textarea {
 	font-family: inherit;
 }
-
 input::-ms-clear {
 	display: none;
 }
@@ -67,7 +64,6 @@ ul li {
 img {
 	vertical-align: top;
 }
-
 h1,
 h2,
 h3,
@@ -78,3 +74,17 @@ h6 {
 	font-weight: 400;
 }
 /*--------------------*/
+.example-block {
+	opacity: 15%;
+	margin: 15px;
+	border: 10px solid rgb(0, 0, 0), inset 10px solid rgb(0, 0, 0);
+	font-size: 50px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px 15px #000;
+}
+.example-string {
+	font-size: 50px;
+}
+
+.example-image {
+}
